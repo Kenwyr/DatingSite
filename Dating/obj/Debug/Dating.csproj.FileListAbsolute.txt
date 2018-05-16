@@ -1,0 +1,17 @@
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\bin\Debug\Dating.exe.config
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\bin\Debug\Dating.exe
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\bin\Debug\Dating.pdb
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\obj\Debug\Dating.csprojResolveAssemblyReference.cache
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\obj\Debug\MainWindow.g.cs
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\obj\Debug\App.g.cs
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\obj\Debug\Dating_MarkupCompile.cache
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\obj\Debug\Dating_MarkupCompile.lref
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\obj\Debug\MainWindow.baml
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\obj\Debug\Dating.g.resources
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\obj\Debug\Dating.Properties.Resources.resources
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\obj\Debug\Dating.csproj.GenerateResource.Cache
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\obj\Debug\Dating.csproj.CoreCompileInputs.cache
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\obj\Debug\Dating.exe
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\obj\Debug\Dating.pdb
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\obj\Debug\Profil.g.cs
+C:\Users\Tec\Desktop\C#\Dating\Dating\Dating\obj\Debug\Profil.baml
