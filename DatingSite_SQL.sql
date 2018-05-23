@@ -11,6 +11,8 @@ end
 go
 create database Dating
 go
+use Dating
+go
 create table PostNR(
 PostNR integer primary key,
 Bynavn nvarchar(50)
