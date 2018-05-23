@@ -2,11 +2,11 @@ use master;
 if exists(select * from sys.databases where name = 'Dating')
 begin
    drop database Dating
-   print 'Vi dropper databasen Dating - findes i forvejen'
+   print 'Vi dropper databasen Dating - findes i forvejen.'
 end
 else 
 begin
-   print 'DB Datng findes ikke, vil blive oprettet'
+   print 'DB Datng findes ikke, vil blive oprettet.'
 end
 go
 create database Dating
@@ -56,3 +56,4 @@ LikedID integer foreign key references Bruger(BrugerID),
 constraint UC_LikerLiked unique (LikerID, LikedID)
 )
 go
+print 'DB Dating oprettet.'
