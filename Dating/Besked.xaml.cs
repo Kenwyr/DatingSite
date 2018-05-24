@@ -24,5 +24,10 @@ namespace Dating
         {
             InitializeComponent();
         }
+
+        private void SendEmne_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
