@@ -37,7 +37,7 @@ Vægt DECIMAL(4,1) NOT NULL,
 Brugernavn NVARCHAR(50) NOT NULL,
 Passw NVARCHAR(50) NOT NULL,
 Email NVARCHAR(60) NOT NULL,
-PostNr int foreign key references PostNR(PostNR) NOT NULL
+PostNR int foreign key references PostNR(PostNR) NOT NULL
 )
 GO
 
