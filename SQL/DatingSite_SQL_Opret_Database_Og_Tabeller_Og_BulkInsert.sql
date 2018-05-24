@@ -30,7 +30,7 @@ Fornavn NVARCHAR(50) NOT NULL,
 Efternavn NVARCHAR(50) NOT NULL,
 Fødselsdato DATETIME NOT NULL,
 Oprettelsesdato DATETIME NOT NULL,
-Køn BIT NOT NULL,
+Køn INT NOT NULL,
 SexOrientering INT NOT NULL,
 Højde INT NOT NULL,
 Vægt DECIMAL(4,1) NOT NULL,
@@ -41,14 +41,14 @@ PostNR int foreign key references PostNR(PostNR) NOT NULL
 )
 GO
 
-create table Profil (
-ProfilID INT IDENTITY(1, 1) PRIMARY KEY FOREIGN KEY (ProfilID) REFERENCES Bruger(BrugerID),
+CREATE TABLE Profil (
+ProfilID INT PRIMARY KEY FOREIGN KEY (ProfilID) REFERENCES Bruger(BrugerID),
 Profiltekst NVARCHAR(MAX),
 Profilbillede VARBINARY(MAX)
 )
 go
 
-create table DirectMessage(
+CREATE TABLE DirectMessage(
 DmID INT PRIMARY KEY,
 Emne NVARCHAR(500),
 Besked NVARCHAR(MAX) NOT NULL,
@@ -59,7 +59,7 @@ LæstStatus BIT NOT NULL
 )
 GO
 
-create table Likes(
+CREATE TABLE Likes(
 LikerID INT FOREIGN KEY (LikerID) REFERENCES Bruger(BrugerID) NOT NULL,
 LikedID INT FOREIGN KEY (LikedID) REFERENCES Bruger(BrugerID) NOT NULL,
 CONSTRAINT UC_LikerLiked UNIQUE (LikerID, LikedID)
