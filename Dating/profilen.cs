@@ -19,7 +19,7 @@ namespace Dating
 
         public void UploadBillede()
         {
-
+            Process.Start(@"c:\");
         }
 
         public void SletBillede()
