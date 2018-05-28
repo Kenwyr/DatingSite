@@ -11,7 +11,7 @@ CREATE PROCEDURE Bruger_OpretBruger
 @Efternavn NVARCHAR(50),
 @Fødselsdato DATETIME,
 @Oprettelsesdato DATETIME,
-@Køn BIT,
+@Køn INT,
 @SexOrientering INT,
 @Højde INT,
 @Vægt DECIMAL(4,1),
