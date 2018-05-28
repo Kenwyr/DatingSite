@@ -9,9 +9,9 @@ GO
 CREATE PROCEDURE Bruger_OpretBruger
 @Fornavn NVARCHAR(50),
 @Efternavn NVARCHAR(50),
-@Fødselsdato DATETIME,
+@Fødselsdato DATE,
 @Oprettelsesdato DATETIME,
-@Køn BIT,
+@Køn INT,
 @SexOrientering INT,
 @Højde INT,
 @Vægt DECIMAL(4,1),
@@ -24,6 +24,6 @@ AS
 BEGIN
 	SET NOCOUNT ON;
 
-	INSERT INTO Bruger VALUES (@Fornavn, @Efternavn, @Fødselsdato, CURRENT_TIMESTAMP, @Køn, @SexOrientering, @Højde, @Vægt, @Brugernavn, @Passw, @Email, @PostNR)
+	INSERT INTO Bruger VALUES (@Fornavn, @Efternavn, @Fødselsdato, CURRENT_TIMESTAMP, @Køn, @SexOrientering, @Højde, @Vægt, @Brugernavn, @Passw, @Email, @PostNR, 0)
 END
 GO

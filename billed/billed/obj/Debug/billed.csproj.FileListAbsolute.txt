@@ -1,0 +1,29 @@
+c:\users\ninja_000\documents\visual studio 2017\Projects\billed\billed\bin\Debug\billed.exe.config
+c:\users\ninja_000\documents\visual studio 2017\Projects\billed\billed\bin\Debug\billed.exe
+c:\users\ninja_000\documents\visual studio 2017\Projects\billed\billed\bin\Debug\billed.pdb
+c:\users\ninja_000\documents\visual studio 2017\Projects\billed\billed\obj\Debug\billed.csprojResolveAssemblyReference.cache
+c:\users\ninja_000\documents\visual studio 2017\Projects\billed\billed\obj\Debug\MainWindow.g.cs
+c:\users\ninja_000\documents\visual studio 2017\Projects\billed\billed\obj\Debug\App.g.cs
+c:\users\ninja_000\documents\visual studio 2017\Projects\billed\billed\obj\Debug\billed_MarkupCompile.cache
+c:\users\ninja_000\documents\visual studio 2017\Projects\billed\billed\obj\Debug\billed_MarkupCompile.lref
+c:\users\ninja_000\documents\visual studio 2017\Projects\billed\billed\obj\Debug\MainWindow.baml
+c:\users\ninja_000\documents\visual studio 2017\Projects\billed\billed\obj\Debug\billed.g.resources
+c:\users\ninja_000\documents\visual studio 2017\Projects\billed\billed\obj\Debug\billed.Properties.Resources.resources
+c:\users\ninja_000\documents\visual studio 2017\Projects\billed\billed\obj\Debug\billed.csproj.GenerateResource.Cache
+c:\users\ninja_000\documents\visual studio 2017\Projects\billed\billed\obj\Debug\billed.exe
+c:\users\ninja_000\documents\visual studio 2017\Projects\billed\billed\obj\Debug\billed.pdb
+F:\Tobias mappe\TEC H2\SQL og GUI C#\billed\billed\bin\Debug\billed.exe.config
+F:\Tobias mappe\TEC H2\SQL og GUI C#\billed\billed\bin\Debug\billed.exe
+F:\Tobias mappe\TEC H2\SQL og GUI C#\billed\billed\bin\Debug\billed.pdb
+F:\Tobias mappe\TEC H2\SQL og GUI C#\billed\billed\obj\Debug\billed.csprojResolveAssemblyReference.cache
+F:\Tobias mappe\TEC H2\SQL og GUI C#\billed\billed\obj\Debug\MainWindow.g.cs
+F:\Tobias mappe\TEC H2\SQL og GUI C#\billed\billed\obj\Debug\App.g.cs
+F:\Tobias mappe\TEC H2\SQL og GUI C#\billed\billed\obj\Debug\billed_MarkupCompile.cache
+F:\Tobias mappe\TEC H2\SQL og GUI C#\billed\billed\obj\Debug\billed_MarkupCompile.lref
+F:\Tobias mappe\TEC H2\SQL og GUI C#\billed\billed\obj\Debug\MainWindow.baml
+F:\Tobias mappe\TEC H2\SQL og GUI C#\billed\billed\obj\Debug\billed.g.resources
+F:\Tobias mappe\TEC H2\SQL og GUI C#\billed\billed\obj\Debug\billed.Properties.Resources.resources
+F:\Tobias mappe\TEC H2\SQL og GUI C#\billed\billed\obj\Debug\billed.csproj.GenerateResource.Cache
+F:\Tobias mappe\TEC H2\SQL og GUI C#\billed\billed\obj\Debug\billed.csproj.CoreCompileInputs.cache
+F:\Tobias mappe\TEC H2\SQL og GUI C#\billed\billed\obj\Debug\billed.exe
+F:\Tobias mappe\TEC H2\SQL og GUI C#\billed\billed\obj\Debug\billed.pdb

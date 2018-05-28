@@ -27,20 +27,12 @@ namespace Dating
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Forside F1 = new Forside();
-            this.Close();
-            F1.Show();
 
 
+            
 
             //Frame.Content = new Dating.Profil();
             //Frame.Content = new Dating.Profil();
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            Create C1 = new Create();
-            C1.Show();
         }
     }
 }

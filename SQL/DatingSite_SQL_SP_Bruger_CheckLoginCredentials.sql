@@ -1,0 +1,21 @@
+USE Dating
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE Bruger_CheckLoginCredentials
+@BrugerID INT,
+@Brugernavn NVARCHAR(50),
+@Pass NVARCHAR(50)
+
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	SELECT Brugernavn, Passw FROM Bruger
+	WHERE BrugerID = @BrugerID
+END
+GO
