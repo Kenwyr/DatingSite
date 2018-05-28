@@ -1,0 +1,19 @@
+USE Dating
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE Bruger_GetAlder
+@BrugerID INT
+
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	SELECT Fødselsdato FROM Bruger
+	WHERE BrugerID = @BrugerID
+END
+GO
