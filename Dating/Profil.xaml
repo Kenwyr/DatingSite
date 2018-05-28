@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:Dating"
       mc:Ignorable="d" 
       d:DesignHeight="350" d:DesignWidth="525"
-      Title="Profil">
+      Title="Profil" Height="500" Width="525">
     <!--Icon="C:\Users\Tec\Desktop\C#\icon.ico"-->
 
   <Grid Background="DarkRed">

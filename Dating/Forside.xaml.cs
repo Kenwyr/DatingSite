@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Navigation;
 
 namespace Dating
 {
@@ -26,7 +27,23 @@ namespace Dating
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            Content = new søg();
+            
+        }
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+            Content = new Profil();
+        }
+
+    
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            MainWindow Mw = new MainWindow();
+            Mw.Show();
+            this.Close();
         }
     }
 }

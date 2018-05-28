@@ -57,8 +57,8 @@
     <Compile Include="Besked.xaml.cs">
       <DependentUpon>Besked.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainWindow - Copy.xaml.cs">
-      <DependentUpon>MainWindow - Copy.xaml</DependentUpon>
+    <Compile Include="Create.xaml.cs">
+      <DependentUpon>Create.xaml</DependentUpon>
     </Compile>
     <Compile Include="søg.xaml.cs">
       <DependentUpon>søg.xaml</DependentUpon>
@@ -74,10 +74,6 @@
     <Page Include="Forside.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MainWindow - Copy.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

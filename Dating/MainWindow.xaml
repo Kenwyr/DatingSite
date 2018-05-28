@@ -6,15 +6,15 @@
         xmlns:local="clr-namespace:Dating"
         mc:Ignorable="d"
         Title="UpDate" Height="350" Width="525"
-        Icon="C:\Users\Tec\Desktop\C#\icon.ico">
+        Icon="C:\Users\Tec\Documents\GitHub\DatingSite\Billeder\icon.ico">
     <StackPanel Background="DarkRed">
         
 
         <!--<StackPanel.Background>
             <ImageBrush></ImageBrush>
         </StackPanel.Background>-->
-
-        <Grid>
+        
+            <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -31,7 +31,7 @@
                 <Label Grid.Column="0" Content="Login" FontWeight="Bold" FontFamily="Script MT Bold" FontSize="50" Foreground="Gold" ></Label>
                 <Label Grid.Column="0" Content="Brugernavn" FontFamily="Script MT Bold" FontWeight="Bold" Foreground="Gold" Margin="0 20 10 0" FontSize="20"></Label>
                 <Label Grid.Column="0" Content="Password" FontFamily="Script MT Bold" FontWeight="Bold" Foreground="Gold" Margin="0 20 10 0" FontSize="20"></Label>
-                <Button Content="Opret Bruger" FontFamily="Script MT Bold" FontWeight="Bold" Foreground="Gold" Margin="4 80 10 0" BorderBrush="{x:Null}" HorizontalAlignment="Left">
+                <Button Content="Opret Bruger" FontFamily="Script MT Bold" FontWeight="Bold" Foreground="Gold" Margin="4 80 10 0" BorderBrush="{x:Null}" HorizontalAlignment="Left" Click="Button_Click_1">
                     <Button.Background>
                         <ImageBrush Opacity="0.3"></ImageBrush>
                     </Button.Background>
@@ -49,6 +49,6 @@
         </Grid>
         <!--<Frame Name="Frame" NavigationUIVisibility="Hidden"/>-->
 
-
+        
     </StackPanel>
 </Window>

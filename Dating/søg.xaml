@@ -7,11 +7,11 @@
       mc:Ignorable="d" 
       d:DesignHeight="500" d:DesignWidth="525"
       Title="søg">
-
+    <Border Padding="10" Background="DarkRed">
     <Grid Background="DarkRed">
 
 
-        
+     
             <TextBlock HorizontalAlignment="Center" FontSize="45" FontWeight="Bold" FontFamily="script mt bold" TextDecorations="underline" Foreground="Gold">Perfekt Match</TextBlock>
         <Grid>
             <Grid.ColumnDefinitions>
@@ -37,6 +37,40 @@
             <Label Grid.Row="6" Grid.Column="0" Content="Profil Billede" Foreground="Gold" FontFamily="script Mt Bold" FontWeight="Bold" FontSize="22" VerticalAlignment="Center"></Label>
             <Label Grid.Row="7" Grid.Column="0" Content="Højde" Foreground="Gold" FontFamily="script Mt Bold" FontWeight="Bold" FontSize="22" VerticalAlignment="Center"></Label>
             <Label Grid.Row="8" Grid.Column="0" Content="Vægt" Foreground="Gold" FontFamily="script Mt Bold" FontWeight="Bold" FontSize="22" VerticalAlignment="Center"></Label>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.ColumnSpan="5">
+                <Button MinWidth="105"  Grid.Column="0" Grid.Row="0" Content="Profil" FontSize="22" FontWeight="Bold" FontFamily="Script MT Bold" Foreground="Gold" BorderBrush="{x:Null}" Click="Button_Click_1">
+                    <Button.Background>
+                        <ImageBrush Opacity="0.3">
+                        </ImageBrush>
+                    </Button.Background>
+                </Button>
+                <Button MinWidth="105" Grid.Column="1" Grid.Row="0" Content="Søg" FontSize="22" FontWeight="Bold" FontFamily="Script MT Bold" Foreground="Gold" BorderBrush="{x:Null}" Width="80" Click="Button_Click">
+                    <Button.Background>
+                        <ImageBrush Opacity="0.3">
+                        </ImageBrush>
+                    </Button.Background>
+                </Button>
+                <Button MinWidth="105" Grid.Row="0" Grid.Column="2" Content="Kontakt" FontSize="22" FontWeight="Bold" FontFamily="Script MT Bold" Foreground="Gold" BorderBrush="{x:Null}">
+                    <Button.Background>
+                        <ImageBrush Opacity="0.3">
+                        </ImageBrush>
+                    </Button.Background>
+                </Button>
+                <Button MinWidth="105"  Grid.Column="3" Grid.Row="0" Content="Log Ud" FontSize="22" FontWeight="Bold" FontFamily="Script MT Bold" Foreground="Gold" BorderBrush="{x:Null}" Click="Button_Click_2">
+                    <Button.Background>
+                        <ImageBrush Opacity="0.3">
+                        </ImageBrush>
+                    </Button.Background>
+                </Button>
+                <Button MinWidth="105" Grid.Row="0" Content="Beskeder" FontSize="22" FontWeight="Bold" FontFamily="Script MT Bold" Foreground="Gold" BorderBrush="{x:Null}">
+                    <Button.Background>
+                        <ImageBrush Opacity="0.3">
+                        </ImageBrush>
+                    </Button.Background>
+                </Button>
+
+            </StackPanel>
 
             <TextBox x:Name="Brugernavn" Grid.Column="1" Grid.Row="2" MaxHeight="27" FontFamily="script MT bold " FontWeight="Bold" Background="BurlyWood"></TextBox>
 
@@ -73,7 +107,9 @@
                     <ImageBrush></ImageBrush>
                 </Button.Background>
             </Button>
-        </Grid>
+       
+    </Grid>
         
     </Grid>
+    </Border>
 </Page>

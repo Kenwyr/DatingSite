@@ -1,0 +1,43 @@
+﻿<Page x:Class="Dating.Besked"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Dating"
+      mc:Ignorable="d" 
+      
+      Title="Besked" Height="600" Width="600">
+
+    <Grid Background="DarkRed">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.3*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.ColumnSpan="2" Grid.Row="0" Content="Beskeder" FontFamily="script mt bold" FontWeight="Bold" Foreground="gold" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Top"></Label>
+        <Label Grid.Column="1" Grid.Row="0" Content="Emne :" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontFamily="script mt bold" FontSize="20" FontWeight="DemiBold" Foreground="Gold"></Label>
+        <Label x:Name="AfsenderEmne" Grid.Column="1" Grid.Row="0"  HorizontalAlignment="Left" VerticalAlignment="Bottom" FontFamily="sketchflow print" FontWeight="DemiBold" FontSize="20" Foreground="Gold" Content="Hej" Margin="70 0 0 0"></Label>
+        <Label x:Name="Afsender" Grid.Column="0" Grid.Row="1"  Content="AfsenderNavn" FontFamily="script mt bold" FontWeight="Bold" FontSize="22" Foreground="Gold"></Label>
+        <Image x:Name="AfsenderBillede" Grid.Column="0" Grid.Row="1" Source="C:\Users\Tec\Desktop\C#\Dating\Dating\Profiltest.jfif" VerticalAlignment="top" Margin="0 40 0 0"></Image>
+
+        <Label x:Name="Brugernavn" Grid.Column="0" Grid.Row="2"  Content="DigSelv" FontFamily="Script MT Bold" FontWeight="bold" FontSize="22" Foreground="Gold"></Label>
+        <Image x:Name="Modtagerbillede" Grid.Column="0" Grid.Row="2"  Source="C:\Users\Tec\Desktop\C#\Dating\Dating\Profiltest.jfif" Height="70" HorizontalAlignment="Left" Margin="0 20 0 0"></Image>
+        <TextBox x:Name="Besked" Grid.Column="1" Grid.Row="1" Background="BurlyWood" Foreground="Brown" Text="Besked modtaget" FontSize="19" FontWeight="DemiBold" FontFamily="SketchFlow Print" Margin="0 0 0 35" BorderBrush="DarkRed" BorderThickness="5"></TextBox>
+
+        
+        <TextBox x:Name="SendEmne" Text="EmneFelt" TextAlignment="Center" Grid.Column="1" Grid.Row="2" Foreground="Brown" Background="BurlyWood" Margin="0 0 0 0" Height="30" VerticalAlignment="Top" BorderBrush="Darkred" BorderThickness="5" TextChanged="SendEmne_TextChanged"></TextBox>
+        <TextBox x:Name="SendBesked" Grid.Column="1" Grid.Row="2" Background="BurlyWood" Foreground="Brown" Text="Send Besked" FontFamily="sketchflow print" FontWeight="DemiBold" FontSize="19" Margin="0 26 0 0" BorderBrush="DarkRed" BorderThickness="5"></TextBox>
+        <Button x:Name="SendKnap" Grid.Row="2" Height="30" Width="65" Content="Send" FontFamily="sketchflow print" Foreground="Brown" FontWeight="DemiBold" FontSize="19" BorderBrush="{x:Null}" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            <Button.Background>
+                <ImageBrush></ImageBrush>
+            </Button.Background>
+        </Button>
+        <Label Grid.Column="0" Grid.Row="2" Content="Emne :" FontFamily="Script MT bold" FontWeight="DemiBold" FontSize="22" Foreground="Gold" HorizontalAlignment="Right" VerticalAlignment="Top"></Label>
+        <Label Grid.Column="0" Grid.Row="2" Content="Besked :" FontFamily="Script MT bold" FontWeight="DemiBold" FontSize="22" Foreground="Gold" HorizontalAlignment="Right" VerticalAlignment="Center"></Label> 
+        
+    </Grid>
+</Page>
