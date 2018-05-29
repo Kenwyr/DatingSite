@@ -1,0 +1,19 @@
+USE Dating
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE Bruger_DeaktiverBruger
+@BrugerID INT
+
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	UPDATE Bruger
+	SET DeletedUser = 1 
+	WHERE BrugerID = @BrugerID
+END

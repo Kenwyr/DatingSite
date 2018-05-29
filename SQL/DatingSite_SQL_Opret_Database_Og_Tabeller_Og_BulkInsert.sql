@@ -28,16 +28,17 @@ CREATE TABLE Bruger(
 BrugerID INT IDENTITY(1, 1) PRIMARY KEY,
 Fornavn NVARCHAR(50) NOT NULL,
 Efternavn NVARCHAR(50) NOT NULL,
-Fødselsdato DATETIME NOT NULL,
+Fødselsdato DATE NOT NULL,
 Oprettelsesdato DATETIME NOT NULL,
 Køn INT NOT NULL,
 SexOrientering INT NOT NULL,
 Højde INT NOT NULL,
-Vægt DECIMAL(4,1) NOT NULL,
+Vægt INT NOT NULL,
 Brugernavn NVARCHAR(50) NOT NULL,
 Passw NVARCHAR(50) NOT NULL,
 Email NVARCHAR(60) NOT NULL,
-PostNR int foreign key references PostNR(PostNR) NOT NULL
+PostNR int foreign key references PostNR(PostNR) NOT NULL,
+DeletedUser BIT NOT NULL
 )
 GO
 
