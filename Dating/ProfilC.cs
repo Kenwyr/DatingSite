@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Dating
 {
-    class profilen
+    public class ProfilC
     {
         public int ProfilID { get; set; }
         public string Profiltekst { get; set; }
-        public bool Profilbillede { get; set; }
+        public string Profilbillede { get; set; }
 
         public void OpdaterProfil()
         {
@@ -19,7 +19,12 @@ namespace Dating
 
         public void UploadBillede()
         {
-            Process.Start(@"c:\");
+            
+        }
+
+        public void HentBillede()
+        {
+
         }
 
         public void SletBillede()
